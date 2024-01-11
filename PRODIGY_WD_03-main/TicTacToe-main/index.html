@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="game">
+        <h1>Tic Tac Toe</h1>
+        <div class="grid">
+          <div id="grid1" class="disable gridel">
+            <span class="hidden" id="grid1Span">P</span>
+          </div>
+          <div id="grid2" class="disable gridel">
+            <span class="hidden" id="grid2Span">P</span>
+          </div>
+          <div id="grid3" class="disable gridel">
+            <span class="hidden" id="grid3Span">P</span>
+          </div>
+          <div id="grid4" class="disable gridel">
+            <span class="hidden" id="grid4Span">P</span>
+          </div>
+          <div id="grid5" class="disable gridel">
+            <span class="hidden" id="grid5Span">P</span>
+          </div>
+          <div id="grid6" class="disable gridel">
+            <span class="hidden" id="grid6Span">P</span>
+          </div>
+          <div id="grid7" class="disable gridel">
+            <span class="hidden" id="grid7Span">P</span>
+          </div>
+          <div id="grid8" class="disable gridel">
+            <span class="hidden" id="grid8Span">P</span>
+          </div>
+          <div id="grid9" class="disable gridel">
+            <span class="hidden" id="grid9Span">P</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- gameplay -->
+      <div class="gameplay">
+        <div class="btns">
+          <div id="startDiv">
+            <i id="start" class="fa-solid fa-play"></i>
+            <h2>PLAY</h2>
+          </div>
+          <div id="resetDiv" class="hidden">
+            <i id="reset" class="fa-solid fa-rotate-left"></i>
+            <h2>RESET</h2>
+          </div>
+        </div>
+        <div id="display" class="display hidden">
+          <div class="top">Turn</div>
+          <div id="symbol" class="symbol">X</div>
+        </div>
+        <div id="score" class="score hidden"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/8b22594335.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
